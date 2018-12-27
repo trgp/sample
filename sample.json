@@ -1,0 +1,16 @@
+{
+	"packages":[
+	    {
+		"name":"shakthi",
+		"maintainer":"Shakthi",
+	    
+	"platforms":[
+	{
+"category":"shakthi",
+"name":"shakthi board",
+"version":"0.0.0",
+"architecture":"riscv",
+"boards":[
+{"name":"shakthi1"}
+{"name":"shakthi2"}
+]

@@ -1,0 +1,43 @@
+{
+    "packages": [
+	{
+	    "name": "shakthi",
+	    "maintainer": "iitm",
+	    "websiteURL": "",
+	    "email": "", 
+	    "help": {
+		"online": ""
+	    },
+	    "platforms": [
+		{
+		    "category": "Contributed",
+		    "name": "Shakthi",
+		    "version": "1.0.0",
+		    "url": "",
+		    "checksum": "",
+		    "archiveFileName": "",
+		    "size": "",
+		    "architecture": "riscv",
+		    "boards": [
+			{"name": "C class"},
+			{"name": "E class"} 
+		    ], 
+		    "toolsDependencies": [
+			{
+			    "packager": "",
+			    "version": "",
+			    "name": ""
+			},
+			{
+			    "packager": "",
+			    "version": "",
+			    "name": ""
+			}
+		    ]
+		}
+			    ],
+	    "tools": []
+	}
+    ]
+}
+

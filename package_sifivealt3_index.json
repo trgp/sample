@@ -1,0 +1,26 @@
+{
+    "packages": [
+	{
+	    "name": "shakthi",
+	    "maintainer": "IITM",
+	    "websiteURL": "",
+	    "email": "", 
+	    "platforms": [
+				{
+		    "category": "Contributed",
+		    "name": "shakthi",
+		    "url": "https://github.com/trgp/sample/blob/master/sifivealt.tar.bz2",
+		    "checksum": "SHA-256:065edf19a372c951abc925191749dc6cd99d85f43cbe89eee32bc9808ff12d87",
+		    "version": "1.0.0",
+		    "architecture": "riscv",
+		    "size": "78869",
+  		    "archiveFileName": "sifivealt.tar.bz2",
+		    "boards":{"name": "eclass"},
+		    "toolsDependencies": [],
+		}
+	    ],
+	    "tools": []
+	}
+    ]
+}
+

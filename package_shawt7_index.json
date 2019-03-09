@@ -22,7 +22,7 @@
 				{
 			    "packager": "shakthi",
 			    "version": "1.0",
-			    "name": "riscv"
+			    "name": "riscv32-unknown-elf-gcc"
 			},
 			{
 			    "packager": "shakthi",

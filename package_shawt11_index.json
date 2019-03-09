@@ -1,0 +1,68 @@
+{
+    "packages": [
+	{
+	    "name": "shakthi",
+	    "maintainer": "IITM",
+	    "websiteURL": "",
+	    "email": "", 
+	    "platforms": [
+		{
+		    "category": "Contributed",
+		    "name": "Shakthi",
+		    "url": "https://github.com/trgp/sifive/raw/master/sifive-1.0.0v5.tar.bz2",
+		    "checksum": "SHA-256:7b8cf2644cf05f08049d6edcfcfbb2f81c3cd3254774ae2566087c0b954998fb",
+		    "version": "1.0.0",
+		    "architecture": "riscv",
+		    "archiveFileName": "sifive-1.0.0v5.tar.bz2",
+		    "boards": [
+			{"name": "EClass"},
+			{"name": "CClass"}  
+		    ], 
+		    "toolsDependencies": [
+				{
+			    "packager": "shakthi",
+			    "version": "1.0",
+			    "name": "riscv32-unknown-elf-gcc"
+			},
+			{
+			    "packager": "shakthi",
+			    "version": "0.10.0",
+			    "name": "openocd"
+			}	
+			],
+		    "size": "79043"
+		}
+	    ],
+	    "tools": [
+			{
+		    "version": "1.0",
+		    "name": "riscv32-unknown-elf-gcc",
+		    "systems": [
+			{
+			    "url": "https://github.com/riscv/riscv-gnu-toolchain/archive/master.zip",
+			    "checksum": "SHA-256:45ee43f26196ba40fd4fa8db74693c0700610cbad23f0704c4359b8bdfb4628d",
+			    "host": "x86_64-pc-linux-gnu",
+			    "archiveFileName": "riscv-gnu-toolchain-master.zip",
+			    "size": "1711884"
+			}
+		    ]
+		},
+		
+			{
+		    "version": "0.10.0",
+		    "name": "openocd",
+		    "systems": [
+			{
+			    "url": "https://github.com/riscv/riscv-openocd/archive/riscv.zip",
+			    "checksum": "SHA-256:3a7000ee1a1fca3218a4be3a70d9480d6b8ebee14fb9a58bcb6ff9f4eca2d813",
+			    "host": "x86_64-pc-linux-gnu",
+			    "archiveFileName": "riscv-openocd-riscv.zip",
+			    "size": "3618783"
+			}
+		    ]
+		}
+	    ]
+	}
+    ]
+}
+

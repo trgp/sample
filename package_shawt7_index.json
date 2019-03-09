@@ -40,7 +40,7 @@
 		    "systems": [
 			{
 			    "url": "https://github.com/riscv/riscv-gnu-toolchain/archive/master.zip",
-			    "checksum": "SHA-256:464547a63bb18e76dd7cd6b741275e4396c4eea5c0d0e272ef6a92fd63ed89e9",
+			    "checksum": "SHA-256:45ee43f26196ba40fd4fa8db74693c0700610cbad23f0704c4359b8bdfb4628d",
 			    "host": "x86_64-pc-linux-gnu",
 			    "archiveFileName": "riscv-gnu-toolchain-master.zip",
 			    "size": "1711884"
@@ -54,7 +54,7 @@
 		    "systems": [
 			{
 			    "url": "https://github.com/riscv/riscv-openocd/archive/riscv.zip",
-			    "checksum": "SHA-256:76e4c5fe66940bc2cc5e70192dcf5101cafce94d0710462f710fba9ede452b9b",
+			    "checksum": "SHA-256:3a7000ee1a1fca3218a4be3a70d9480d6b8ebee14fb9a58bcb6ff9f4eca2d813",
 			    "host": "x86_64-pc-linux-gnu",
 			    "archiveFileName": "riscv-openocd-riscv.zip",
 			    "size": "3618783"
